@@ -15,11 +15,11 @@ function App() {
     setcat(link);
   };
 
-  useEffect(() => {
-    fetch(`${cat}`)
-      .then(res => res.json())
-      .then(data => setnews(data.articles));
-  }, [cat]);
+  // useEffect(() => {
+  //   fetch(`${cat}`)
+  //     .then(res => res.json())
+  //     .then(data => setnews(data.articles));
+  // }, [cat]);
 
   return (
     <main role="main">
