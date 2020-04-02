@@ -3,7 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Nav from "./components/nav";
 import Card from "./components/card";
-import Type from "./components/type";
+//import Type from "./components/type";
 
 function App() {
   const [news, setnews] = useState([]);
@@ -25,7 +25,7 @@ function App() {
     <main role="main">
       <Nav />
       <div className="album py-2 bg-light">
-        <Type val={value} />
+        {/* <Type val={value} /> */}
         <div className="container">
           <div className="row">
             {news.map((item, index) => (
