@@ -9,6 +9,7 @@ function card(props) {
           width="100%"
           height="200"
           src={props.img}
+          alt=""
         />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>

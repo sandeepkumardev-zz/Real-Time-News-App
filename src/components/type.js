@@ -43,25 +43,25 @@ function Type(props) {
     <div>
       <div className="nav-scroller py-1 mb-2">
         <nav className="nav mx-2 d-flex justify-content-between">
-          <a className="p-2 text-muted" onClick={all}>
+          <a className="p-2 text-muted" href="#" onClick={all}>
             All
           </a>
-          <a className="p-2 text-muted" onClick={business}>
+          <a className="p-2 text-muted" href="#" onClick={business}>
             Business
           </a>
-          <a className="p-2 text-muted" onClick={health}>
+          <a className="p-2 text-muted" href="#" onClick={health}>
             Health
           </a>
-          <a className="p-2 text-muted" onClick={technology}>
+          <a className="p-2 text-muted" href="#" onClick={technology}>
             Technology
           </a>
-          <a className="p-2 text-muted" onClick={entertainment}>
+          <a className="p-2 text-muted" href="#" onClick={entertainment}>
             Entertainment
           </a>
-          <a className="p-2 text-muted" onClick={science}>
+          <a className="p-2 text-muted" href="#" onClick={science}>
             Science
           </a>
-          <a className="p-2 text-muted" onClick={sports}>
+          <a className="p-2 text-muted" href="#" onClick={sports}>
             Sports
           </a>
         </nav>
